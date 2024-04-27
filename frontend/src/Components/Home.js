@@ -42,9 +42,9 @@ const Home = () => {
                 <span className="close1" onClick={closePopup}>
                   close
                 </span>
-                <h2>This is a Popup</h2>
+              
                 <Register />
-                <p>Hello! This is some sample popup content.</p>
+            
               </div>
             </div>
           )}
