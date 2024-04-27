@@ -29,7 +29,7 @@ const Edit = () => {
     let url = "http://localhost:8000/task/editsave";
     axios.post(url, input).then((res) => {
       alert("Task updated successfully");
-      myNav("/display");
+      myNav("/admin/display");
     });
   };
 
